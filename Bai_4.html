@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let chieuDaiInput = prompt("Vui lòng nhập chiều dài hình chữ nhật:");
+    let chieuRongInput = prompt("Vui lòng nhập chiều rộng hình chữ nhật:");
+
+    let chieuDai = Number(chieuDaiInput);
+    let chieuRong = Number(chieuRongInput);
+
+    let dienTich = chieuDai * chieuRong;
+
+    let chuVi = 2 * (chieuDai + chieuRong);
+    
+    console.log("--- KẾT QUẢ TÍNH TOÁN ---");
+    console.log("Chiều dài đã nhập:", chieuDai);
+    console.log("Chiều rộng đã nhập:", chieuRong);
+    console.log("-> Diện tích hình chữ nhật là:", dienTich);
+    console.log("-> Chu vi hình chữ nhật là:", chuVi);
+</script>
+</body>
+</html>

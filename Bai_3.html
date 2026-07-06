@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputA = prompt("Vui lòng nhập số a:");
+    let inputB = prompt("Vui lòng nhập số b:");
+
+    let a = Number(inputA);
+    let b = Number(inputB);
+
+    console.log("--- KẾT QUẢ SO SÁNH ---");
+    console.log("Số a bạn nhập là:", a);
+    console.log("Số b bạn nhập là:", b);
+
+    let isEq = (a == b);
+    console.log("1. a có bằng b không (a == b)? ->", isEq);
+
+    let isGt = (a > b);
+    console.log("2. a có lớn hơn b không (a > b)? ->", isGt);
+
+    let isNeq = (a != b);
+    console.log("3. a có khác b không (a != b)? ->", isNeq);
+</script>
+</body>
+</html>

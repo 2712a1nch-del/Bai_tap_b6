@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let userName = prompt("Vui lòng nhập tên của bạn:");
+
+    console.log("Xin chào, " + userName + "! Chúc bạn học lập trình vui vẻ.");
+
+    document.write("<h1>Xin chào, " + userName + "!</h1>");
+</script>
+    <h2>Chương trình tính tổng 2 số</h2>
+
+    <input type="number" id="number1" placeholder="Nhập số thứ nhất"/>
+    <input type="number" id="number2" placeholder="Nhập số thứ hai"/>
+
+    <button onClick="calculateSum()">Tính Tổng</button>
+
+    <h1 id="resultDisplay">Kết quả sẽ hiển thị ở đây</h1>
+
+    <script>
+        let val1 = document.getElementById('number1').value;
+        let val2 = document.getElementById('number2').value;
+
+        let num1 = Number(val1);
+        let num2 = Number(val2);
+
+        let sum = num1 + num2;
+
+        document.getElementById('resultDisplay').textContent = "Tổng là: " + sum;
+    </script>
+</script>
+</body>
+</html>
